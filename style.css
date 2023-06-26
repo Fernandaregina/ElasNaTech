@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9698B5;
+    padding: 15px;
+}
+
+header > div >  h1 {
+    color: white;
+}
+
+
+nav{
+    text-align: end;
+    margin-top: 5px;
+}
+
+.navegacao { 
+    
+    color: #373A69;
+    text-decoration: none;
+    padding: 10px;  
+    text-align: center;  
+}
+a:hover {
+    color: white;
+}
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background: url(img/mulhertech.jpg) no-repeat;
+
+}
+main {
+    
+    font-size: 30px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > h2{
+    color: #373A69;
+    text-align: center;
+    padding: 15px;
+}
+main > p {
+    color: #373A69;
+    text-indent: 20px;
+}
+
+main > ul {
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.lista {
+    color: #373A69;
+    text-decoration: none;
+    list-style: none;
+}
+.lista:hover {
+    color: white;
+}
+
+.container {
+    text-align: center;
+        
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9698B5;
+    padding: 10px;
+}
+footer > p {
+    color: white;
+    opacity: 0.4;
+    font-size: 14px;
+    text-align: center;
+}
