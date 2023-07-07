@@ -39,6 +39,7 @@ main {
     
     font-size: 30px;    
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 30px;
 }
 main > h2{
     color: #373A69;
@@ -68,6 +69,10 @@ main > ul {
 .container {
     text-align: center;
         
+}
+img {
+    margin: 50px;
+    border-radius: 10px;
 }
 
 
